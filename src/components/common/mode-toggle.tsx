@@ -14,9 +14,6 @@ import {
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
-  React.useEffect(() => {
-    setTheme("dark");
-  }, []);
 
   return (
     <DropdownMenu>
